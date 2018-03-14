@@ -1,0 +1,25 @@
+Jonathan Perry
+BCIS 4620
+HW7Q4
+4/23/2015
+---------+---------+---------+---------+---------+---------+---------+---------+
+SELECT S.C_SEC_ID, C.COURSE_NAME, S.MAX_ENRL FROM COURSE_SECTION S,     00010019
+COURSE C WHERE (C.COURSE_NO = S.COURSE_NO) AND                          00020019
+MAX_ENRL > (SELECT AVG(MAX_ENRL) FROM COURSE_SECTION);                  00030018
+---------+---------+---------+---------+---------+---------+---------+---------+
+C_SEC_ID  COURSE_NAME                MAX_ENRL  
+---------+---------+---------+---------+---------+---------+---------+---------+
+      1.  INTRO. TO MIS                  140.
+     11.  INTRO. TO MIS                   50.
+DSNE610I NUMBER OF ROWS DISPLAYED IS 2    
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 100    
+---------+---------+---------+---------+---------+---------+---------+---------+
+                                                                        00040013
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE617I COMMIT PERFORMED, SQLCODE IS 0    
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 0    
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE601I SQL STATEMENTS ASSUMED TO BE BETWEEN COLUMNS 1 AND 72    
+DSNE620I NUMBER OF SQL STATEMENTS PROCESSED IS 1    
+DSNE621I NUMBER OF INPUT RECORDS READ IS 4    
+DSNE622I NUMBER OF OUTPUT RECORDS WRITTEN IS 21    

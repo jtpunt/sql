@@ -1,0 +1,21 @@
+Jonathan Perry
+BCIS 4610
+HW6Q3
+4/16/2015
+---------+---------+---------+---------+---------+---------+---------+---------+
+SELECT COUNT(DISTINCT COURSE_NO) AS NUM_OF_COURSES                      00010026
+FROM COURSE_SECTION WHERE F_ID = 3;                                     00020021
+---------+---------+---------+---------+---------+---------+---------+---------+
+NUM_OF_COURSES  
+---------+---------+---------+---------+---------+---------+---------+---------+
+             1
+DSNE610I NUMBER OF ROWS DISPLAYED IS 1    
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 100    
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE617I COMMIT PERFORMED, SQLCODE IS 0    
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 0    
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE601I SQL STATEMENTS ASSUMED TO BE BETWEEN COLUMNS 1 AND 72    
+DSNE620I NUMBER OF SQL STATEMENTS PROCESSED IS 1    
+DSNE621I NUMBER OF INPUT RECORDS READ IS 2    
+DSNE622I NUMBER OF OUTPUT RECORDS WRITTEN IS 18    

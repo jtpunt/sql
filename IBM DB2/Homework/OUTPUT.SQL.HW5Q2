@@ -1,0 +1,30 @@
+Jonathan Perry
+BCIS 4610
+4/9/2015
+#2
+---------+---------+---------+---------+---------+---------+---------+---------+
+CREATE TABLE UNTM027.STUDENT (                                          00010000
+S_ID       CHAR(6)      NOT NULL,                                       00020000
+S_LAST     VARCHAR(30)  NOT NULL,                                       00030000
+S_FIRST    VARCHAR(30)  NOT NULL,                                       00040000
+S_MI       CHAR(1),                                                     00050000
+S_ADDRESS  VARCHAR(25)  NOT NULL,                                       00060000
+S_CITY     VARCHAR(20)  NOT NULL,                                       00070000
+S_STATE    CHAR(2)      NOT NULL,                                       00080000
+S_ZIP      CHAR(10)     NOT NULL,                                       00100000
+S_CLASS    CHAR(2)      NOT NULL,                                       00110000
+S_DOB      DATE         NOT NULL,                                       00120000
+S_PIN      DECIMAL(4,0) NOT NULL,                                       00130001
+PRIMARY KEY (S_ID))                                                     00140000
+IN M027DB.M027TSSU;                                                     00150000
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 0   
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE617I COMMIT PERFORMED, SQLCODE IS 0    
+DSNE616I STATEMENT EXECUTION WAS SUCCESSFUL, SQLCODE IS 0 
+---------+---------+---------+---------+---------+---------+---------+---------+
+---------+---------+---------+---------+---------+---------+---------+---------+
+DSNE601I SQL STATEMENTS ASSUMED TO BE BETWEEN COLUMNS 1 AND 72    
+DSNE620I NUMBER OF SQL STATEMENTS PROCESSED IS 1    
+DSNE621I NUMBER OF INPUT RECORDS READ IS 14    
+DSNE622I NUMBER OF OUTPUT RECORDS WRITTEN IS 26   
